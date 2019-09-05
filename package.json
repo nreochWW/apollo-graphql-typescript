@@ -1,0 +1,22 @@
+{
+  "name": "apollo-graphql-typescript",
+  "version": "1.0.0",
+  "description": "A boilerplate for Apollo GraphQL and Typescript",
+  "main": "index.js",
+  "author": "Nigel Reoch",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.$NODE_ENV.js",
+    "start": "node dist/server"
+  },
+  "devDependencies": {
+    "@types/webpack-env": "^1.14.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-merge": "^4.2.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
