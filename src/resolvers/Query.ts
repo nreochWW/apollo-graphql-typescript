@@ -1,6 +1,14 @@
+interface Message {
+  _id: number;
+  text: string;
+}
+
 const Query = {
-  testMessage: (): string => {
-    return "Hello World";
+  testMessage: (): Message => {
+    return {
+      _id: 1,
+      text: "Hello World"
+    };
   }
 };
 
